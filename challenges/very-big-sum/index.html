@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+
+    let ar = [1000000001, 1000000002, 1000000003, 1000000004, 1000000005]
+
+    function aVeryBigSum(ar) {
+      function sum(total, num) {
+        return total + num;
+      }
+      return ar.reduce(sum, 0)
+    }
+
+
+
+  </script>
+
+</body>
+
+</html>
